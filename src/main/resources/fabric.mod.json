@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "meteor-nether-cracker",
   "version": "${version}",
-  "name": "Nether Cracker",
+  "name": "Meteor Nether Cracker",
   "description": "An addon to get coordinates of the bedrock in the nether.",
   "authors": [
     "seasnail"
@@ -14,7 +14,7 @@
   "environment": "client",
   "entrypoints": {
     "meteor": [
-      "com.tmquan2508.MeteorNetherCracker"
+      "com.tmquan2508.MeteorNetherCrackerAddon"
     ]
   },
   "mixins": [
