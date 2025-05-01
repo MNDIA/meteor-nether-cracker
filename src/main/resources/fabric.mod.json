@@ -5,7 +5,7 @@
   "name": "Meteor Nether Cracker",
   "description": "An addon to get coordinates of the bedrock in the nether.",
   "authors": [
-    "seasnail"
+    "tmquan2508"
   ],
   "contact": {
     "repo": "https://github.com/tmquan2508/meteor-nether-cracker"
@@ -21,7 +21,7 @@
     "meteor-nether-cracker.mixins.json"
   ],
   "custom": {
-    "meteor-client:color": "225,25,25"
+    "meteor-client:color": "85,255,255"
   },
   "depends": {
     "java": ">=21",

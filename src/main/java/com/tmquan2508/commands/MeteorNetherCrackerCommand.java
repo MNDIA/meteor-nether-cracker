@@ -62,7 +62,7 @@ public class MeteorNetherCrackerCommand extends Command {
                 }
             }
 
-            info(String.format("Found %d bedrock blocks at y=4 or y=123.", bedrockCandidates.size()));
+            info(String.format("Found %d bedrock blocks at y=4 and y=123.", bedrockCandidates.size()));
 
             if (!bedrockCandidates.isEmpty()) {
                 StringBuilder sb = new StringBuilder();
