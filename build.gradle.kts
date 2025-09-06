@@ -26,7 +26,7 @@ dependencies {
     modImplementation("net.fabricmc:fabric-loader:${properties["loader_version"] as String}")
 
     // Meteor
-    modImplementation("meteordevelopment:meteor-client:1.21.7-SNAPSHOT")
+    modImplementation("meteordevelopment:meteor-client:1.21.8-SNAPSHOT")
 }
 
 tasks {
