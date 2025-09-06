@@ -75,8 +75,8 @@ public class MeteorNetherCrackerCommand extends Command {
                      Text.literal("Copy Coords")
                          .fillStyle(Style.EMPTY
                              .withColor(Formatting.GREEN)
-                             .withClickEvent(new ClickEvent(ClickEvent.Action.COPY_TO_CLIPBOARD, coords))
-                             .withHoverEvent(new HoverEvent(HoverEvent.Action.SHOW_TEXT, Text.literal("Click to copy all coordinates")))
+                             .withClickEvent(new ClickEvent.CopyToClipboard(coords))
+                             .withHoverEvent(new HoverEvent.ShowText(Text.literal("Click to copy all coordinates")))
                              .withInsertion(coords)
                          )
                  );
