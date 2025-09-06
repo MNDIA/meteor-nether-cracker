@@ -71,12 +71,12 @@ public class MeteorNetherCrackerCommand extends Command {
                 }
                 String coords = sb.toString().trim();
 
+                info("Click the text below to copy all coordinates to clipboard:");
                  Text copyText = Texts.bracketed(
                      Text.literal("Copy Coords")
                          .fillStyle(Style.EMPTY
                              .withColor(Formatting.GREEN)
                              .withClickEvent(new ClickEvent(ClickEvent.Action.COPY_TO_CLIPBOARD, coords))
-                             .withHoverEvent(new HoverEvent(HoverEvent.Action.SHOW_TEXT, Text.literal("Click to copy all coordinates")))
                              .withInsertion(coords)
                          )
                  );
